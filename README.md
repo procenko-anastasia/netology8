@@ -36,7 +36,6 @@ ansible-vault view <name_file>
 ----
 6. Как выглядит команда запуска `playbook`, если переменные зашифрованы?
 
-**Примерно так:**
 ```
 ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 ```
